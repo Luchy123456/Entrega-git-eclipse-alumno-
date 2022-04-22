@@ -7,6 +7,9 @@ public class Listado {
 		System.out.println("Listado de Alumnos 1º DAW");
 		
 		System.out.println("Alumno 1: ");
+		
+		Alumno alumno1= new Alumno("Jorge","Rodriguez",123456789);
+		System.out.println(alumno1);
 	}
 
 }
